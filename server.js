@@ -13,7 +13,7 @@ app.use(express.json());
 
 // Connect to MongoDB Atlas (Cloud Database)
 // REPLACE the string below with your actual connection string from your MongoDB Atlas dashboard
-const ATLAS_URI = "mongodb+srv://YOUR_USERNAME:YOUR_PASSWORD@cluster0.xxxx.mongodb.net/customerDB?retryWrites=true&w=majority";
+const ATLAS_URI = "mongodb+srv://Placebo-dev:Hefwin@01234567@cluster0.jfeqvtr.mongodb.net/?appName=Cluster0";
 
 mongoose.connect(ATLAS_URI)
   .then(() => console.log('Connected to Cloud MongoDB Atlas successfully!'))
